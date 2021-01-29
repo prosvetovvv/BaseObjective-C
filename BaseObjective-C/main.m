@@ -21,7 +21,7 @@ int main(int argc, const char * argv[]) {
         CGFloat difference = firstNumber - secondNumber;
         CGFloat multiplication = firstNumber * secondNumber;
         CGFloat division = firstNumber / secondNumber;
-        NSInteger remainder = (int)firstNumber % (int)secondNumber;
+        NSInteger remainder = (NSInteger)firstNumber % (NSInteger)secondNumber;
         
         NSLog(@"Sum = %.1lf", sum);
         NSLog(@"Difference = %.1lf", difference);
